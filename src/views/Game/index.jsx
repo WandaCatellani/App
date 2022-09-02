@@ -50,9 +50,7 @@ const Game = () => {
         ) : (
           <form>
             {questions.map((pregunta) => {
-              return (
-                <QuestionCard key={pregunta.id} preguntaActual={pregunta} />
-              );
+              return <QuestionCard key={pregunta.id} question={pregunta} />;
             })}
           </form>
         )}
