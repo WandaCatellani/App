@@ -1,8 +1,8 @@
-import './style.css';
+// import './style.css';
 
 const Button = ({ text, onClick }) => {
   return (
-    <button onClick={onClick} className='btn'>
+    <button onClick={onClick} className='button btn is-info'>
       {text}
     </button>
   );
