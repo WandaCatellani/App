@@ -1,3 +1,5 @@
+// import 'bulma/css/bulma.min.css';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Contact from './views/Contact/index';
