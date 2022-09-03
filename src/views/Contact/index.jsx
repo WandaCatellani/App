@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
     <>
-      <h1>Página de Contacto</h1>
+      <h1>Página Contacto</h1>
       <Button onClick={onClickButton} text='Ir a Home' />
     </>
   );

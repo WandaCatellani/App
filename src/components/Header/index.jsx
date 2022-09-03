@@ -25,7 +25,9 @@ function NavBar() {
             data-target='navbarBasicExample'
           >
             <span aria-hidden='true'></span>
+
             <span aria-hidden='true'></span>
+
             <span aria-hidden='true'></span>
           </NavLink>
         </div>
